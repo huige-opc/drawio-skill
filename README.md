@@ -11,6 +11,20 @@
 - 左右脑图可直接出 PNG/PDF（内置 `mindmap-svg`，只需要 Chrome）。
 - 可选本地 webapp：打开 `.drawio`，导出 PNG / SVG / JPG / PDF，保存直接到本机。
 
+## 效果
+
+### 甘特图
+
+![甘特图示例](images/gantt-demo.png)
+
+### 左右脑图
+
+![左右脑图示例](images/mindmap-demo.png)
+
+### 本地 webapp
+
+![本地 webapp](images/webapp.png)
+
 ## 适合谁
 
 - 用支持技能的 Agent，想让 AI 直接产图的用户。
