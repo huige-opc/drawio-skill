@@ -1,0 +1,36 @@
+{
+  "root": "drawio-skill",
+  "title": "drawio-skill 能力导图",
+  "branches": [
+    {
+      "label": "图表类型",
+      "side": "left",
+      "leaves": ["流程图 / 架构图", "ER / UML / 时序图", "C4 / BPMN / SysML", "神经网络模型", "网络拓扑 / 思维导图"]
+    },
+    {
+      "label": "导入来源",
+      "side": "left",
+      "leaves": ["代码：Py / JS / Go / Rust", "IaC：TF / K8s / Compose", "SQL DDL → ER", "OpenAPI / CI-CD"]
+    },
+    {
+      "label": "自动布局",
+      "side": "left",
+      "leaves": ["Graphviz (dot)", "ELK 引擎", "热力图 / 差异对比", "Git 演进动画"]
+    },
+    {
+      "label": "样式",
+      "side": "right",
+      "leaves": ["样式预设", "内置主题", "10,000+ 图形", "AI 品牌图标"]
+    },
+    {
+      "label": "导出",
+      "side": "right",
+      "leaves": ["PNG（含可编辑 XML）", "SVG / PDF / JPG", "浏览器降级 URL"]
+    },
+    {
+      "label": "二次利用",
+      "side": "right",
+      "leaves": ["PPTX 幻灯片", "交互式 HTML", "SVG 动画", "→ Mermaid 文本"]
+    }
+  ]
+}
