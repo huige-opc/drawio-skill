@@ -2,7 +2,7 @@
 
 本地 draw.io 技能包：让 AI 生成可编辑的 `.drawio` 文件，并可选配一个完全离线的本地 webapp 来编辑、渲染和导出。
 
-不依赖 draw.io 官网，也不需要安装 draw.io 桌面版。
+适用于任何支持 `SKILL.md` 的 Agent（WorkBuddy、Claude Code、Codex 等），不依赖 draw.io 官网，也不需要安装 draw.io 桌面版。
 
 ## 能做什么
 
@@ -13,7 +13,7 @@
 
 ## 适合谁
 
-- 用 WorkBuddy / Claude / Codex 等工具，想让 AI 直接产图的用户。
+- 用支持技能的 Agent，想让 AI 直接产图的用户。
 - 需要可编辑图源文件，而不是一张死图片的人。
 - 不想连 draw.io 官网、不想装桌面版的人。
 
@@ -21,9 +21,9 @@
 
 ### 1. 导入技能
 
-从 Releases 下载 `drawio-skill-vX.zip`，解压后把里面的 `drawio/` 文件夹导入 WorkBuddy。
+从 Releases 下载 `drawio-skill-vX.zip`，解压后把里面的 `drawio/` 文件夹导入你的 Agent。
 
-导入的文件夹根目录必须包含 `SKILL.md`；技能名是 `drawio`。
+任何支持 `SKILL.md` 的工具都用同一套方法：文件夹根目录有 `SKILL.md`，技能名是 `drawio`。
 
 ### 2. 可选：安装本地 webapp
 
@@ -89,7 +89,7 @@ python build_release.py
 ## 常见问题
 
 **导入后没反应？**
-确认导入的文件夹根目录有 `SKILL.md`，且 `name: drawio`。
+确认 Agent 导入的文件夹根目录有 `SKILL.md`，且 `name: drawio`。
 
 **不能导出图片？**
 确认本地 webapp 已启动，或直接用 draw.io 打开 `.drawio` 导出。
